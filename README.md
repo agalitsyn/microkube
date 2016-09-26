@@ -11,4 +11,6 @@ Use of local docker have several advantages, like:
 * Easy to test services without need of expose them.
 * Also, on linux using VM looks like overhead.
 
+To avoid `ErrImagePull` follow this tips https://github.com/kubernetes/kubernetes/issues/504#issuecomment-218909574
+
 Originally was created in need as part of experimental project [yagoda](https://github.com/agalitsyn/yagoda).
